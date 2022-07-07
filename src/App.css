@@ -1,11 +1,17 @@
 .App {
-  text-align: center;
   min-height: 100vh;
   background-image: url(dystopia.jpeg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   z-index: 10;
+  max-width: 100%;
+  max-height: 10%;
+}
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .App-logo {
@@ -23,12 +29,30 @@
   color: white;
 }
 
-.App-header p{
-    position: absolute;
+.App-header h1{
+    /* position: absolute;
     color: #fff;
     white-space: nowrap;
     font-size: calc(10px + 2vmin);
     z-index: 9;
+    text-align: center; */
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.App-header h2{
+  /* position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-size: calc(10px + 2vmin);
+  z-index: 9;
+  text-align: center; */
+  display: block;
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+  margin-top: 0;
 }
 /* .App-link {
   color: #61dafb;
